@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GALLERY APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    
+    
+</head>
+<body>
+    <div class="container">
+        <span><img onClick="displayImage(this)" src="images/Noilers.jpg" class="img-thumbnail rounded-circle img-fluid" width="214px" height="120px"></span>
+        <span><img onClick="displayImage(this)" src="images/Noilers5.jpg" class="img-thumbnail" width="214px" height="120px"></span>
+        <span><img onClick="displayImage(this)" src="images/Noilers2.jpg" class="img-thumbnail" width="214px" height="120px"></span>
+        <span><img onClick="displayImage(this)" src="images/Noilers3.jpg" class="img-thumbnail" width="214px" height="120px"></span>
+        <span><img onClick="displayImage(this)" src="images/Noilers4.jpg" class="img-thumbnail" width="214px" height="120px"></span>
+        <!--<span><img src="images/Noilers5.jpg" width="214px" height="120px"></span>
+        <span><img src="images/Noilers6.jpg" width="214px" height="120px"></span>
+        <span><img src="images/Noilers7.jpg" width="214px" height="120px"></span>
+        <span><img src="images/Noilers8.jpg" width="214px" height="120px"></span>
+        <span><img src="images/Noilers9.jpg" width="214px" height="120px"></span>-->
+    </div>
+    <hr>
+    <center><img src="" id="bigboy" width="1000" height="600"></center>
+
+
+    <script type="text/javascript">
+    // a function to display the clicked image
+    function displayImage(image){
+        document.getElementById('bigboy').src = image.src;
+    }
+    
+    
+    </script>
+
+
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
